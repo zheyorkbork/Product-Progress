@@ -1,0 +1,9 @@
+8/7/21
+
+Progress in the development side:
+I've downloaded Arduino IDE and should have all the dependencies for it to work with things like sensors and transmittors. 
+I will start working on the base, I'm not able to actually work with the sensors and transmitor because I don't have the Arduino board or parts as of now.
+I have started testing some C and C++ code because I do now some C, I've decided to go with these languages because they are fast!
+Arduino also uses a form of C++ so there's that.
+
+I did help my group on other things such as the manual page and the survey.
