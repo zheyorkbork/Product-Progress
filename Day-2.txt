@@ -1,0 +1,5 @@
+9/7/21
+
+Today we decided to change our design because a lot of people thought that the piece of tech is big and that people were going to wear a box.
+The parts for our product will arrive soon and I've been testing some C++ code and messing around with the Arduino IDE.
+also Updated the manual.
