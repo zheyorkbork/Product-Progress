@@ -1,17 +1,14 @@
-//Code for our Arduino Project!
-#include <Wire.h>
-
-int const trigPin = 3;
-int const echoPin = 2;
-int duration = pulseIn(echoPin, HIGH);
-int distanceCm = duration * 0.0340 / 2;
-int distanceinch = duration * 0.01330 / 2;
+const int trigPin = 7;
+const int echoPin = 4;
+int distance;
+long duration;
 void setup() {
   // put your setup code here, to run once:
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
+  pinMode(13, OUTPUT);
+  pinMode(2, OUTPUT);
   Serial.begin(9600);
-
 }
 
 void loop() {
@@ -19,9 +16,22 @@ void loop() {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
-  delayMicroseconds (10);
+  delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
-  Serial.print(distanceCm);
-  Serial.println();
+  duration = pulseIn(echoPin, HIGH);
+  distance= duration*0.034/2;
+  if (distance <= 50 && distance >= 20)
+  {
+  digitalWrite(13, HIGH);
+  }
+  else
+  {
+  digitalWrite(13, LOW);
+  }
+  Serial.print(distance);
   delay(1000);
+  Serial.println();
+  // Serial.print(duration);
+  delay(1000);
+  // Serial.println();
 }
