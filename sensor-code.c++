@@ -34,23 +34,4 @@ void loop() {
   // Serial.print(duration);
   delay(1000);
   // Serial.println();
-//  if(distance <= 20)
-//  {
-//  digitalWrite(2, HIGH);
-//  tone(buzz, 2000);
-//  delay(100);
-//  noTone(buzz);
-//  delay(100);
-//  tone(buzz, 2000);
-//  delay(100);
-//  noTone(buzz);
-//  delay(100);
-//  tone(buzz, 2000);
-//  delay(100);
-//  noTone(buzz);
-//  tone(buzz, 2000);
-//  delay(100);
-//  noTone(buzz);
-//  delay(100);
-//  }
 }
