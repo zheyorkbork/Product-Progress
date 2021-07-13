@@ -1,0 +1,10 @@
+13/7/21
+
+Today I made a breakthrough and manage to connect both the sensor and the stepper motor.
+On hack day I recieved the parts for our product and started working on it, everything went well and I manage
+to have both the sensor and motor done. The sensor is pretty self explanitory but the motor is there so it causes
+the vibrationa and noise to alert the user.
+Today I also will be making the prototype design with cardboard and the measurements so that our scrum can add stuff and eventually
+our design can start designing and improving.
+What I will do is that I will start working on the Transmittor and Reciever so that the motor can act independently.
+I'm not stuck on anything for now.
