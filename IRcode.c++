@@ -1,4 +1,5 @@
 #include <IRremote.h>
+#define PIN_MODE 3
 /*if there is an error with library
  you have to download it */
 
@@ -12,7 +13,7 @@ decode_results results;
     
 
 void setup(){
-
+    IRSender.begin(PIN_SEND);
     Serial.begin(9600);
     irrecv.enableIRIn();
     pinMode(led, OUTPUT);
