@@ -1,9 +1,0 @@
-14/7/21 
-
-1st Sprint: I updated our instagram page https://www.instagram.com/cybercyclecorp/?hl=en.
-In this sprint, in terms of the development side, we are now facing torwards connect the konsole and the band.
-I ordered some parts we would need for the band (Arduino NANO, Small BreadBoards)
-I recorded a video of the current prototype but it lasted longer than 90sec.
-One thing I am stuck in is that The motor, the way it's coded it would go to the slowest then to the fastest when
-the sensor detects an object near, The solution I came up with is a for loop, if the object is closer than the motor
-will vibrate faster.
