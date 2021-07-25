@@ -1,5 +1,17 @@
-# Progress
-This is a repository where I will be sending my progress in the form of .txt files
-There will also be some .c files for the product and as a way of testing if some code works!
+# Development Branch
 
-(There might also be .c++)
+This is the Development Branch.
+
+> How is this different than the Stable Branch?
+
+The Development Branch is what the name implies. Under Development
+The Development Branch will have constant updates but these updates might:
+
+- Have errors so the code might not work
+
+- Have Bugs
+
+- will feature upcoming extensions or features
+
+- Is the latest and greatest
+
