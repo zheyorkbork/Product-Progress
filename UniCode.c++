@@ -4,7 +4,7 @@
 	1 = wireless mode
 	0 = Wired mode!
 */
-
+#include <powertop.h>
 
 int MODE = 0;
 
